@@ -1,0 +1,217 @@
+*{
+	margin: 0px;
+}
+
+
+/* Top Navigation Bar */
+header{
+	height: 40px;
+	padding-left: 73%;
+	padding-top: 20px;
+/*	display: block;*/
+/*	background-color: #b29bf2;*/
+
+}
+header a.top{
+	padding: 20px;
+	margin-top: 4px;
+	text-decoration: none;
+	color: black;
+}
+header > a:hover{
+	color: black;
+	background-color: #BFCFF7;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+header > a:active{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #84A3F0;
+}
+header > a:visited{
+	color: purple;
+}
+
+
+/* Introduction */ 
+section > img, h1{
+	display: inline;
+}
+section > img{
+	padding-left: 350px;
+	padding-top: 10px;
+}
+section > h1{
+	background-color: #BFCFF7;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+
+
+/* Middle Navigation Bar */ 
+nav.introNav{
+	padding-top: 55px;
+	padding-left: 30%;
+}
+nav.introNav > a {
+	text-decoration: none;
+	border: 1.5px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	margin-left: 55px;
+	color: black;
+}
+nav.introNav > a:hover{
+	color: black;
+	background-color: #8CA9F0;
+	border: 2px solid black;
+}
+nav.introNav > a:active{
+	color: white;
+	background-color: #84A3F0;
+}
+nav.introNav > a:visited{
+	color: black;
+}
+
+
+/* About Me */
+section.aboutMe{
+	padding-left: 23%;
+	padding-right: 23%;
+	padding-top: 50px;
+}
+section.aboutMe > h2{
+	height: 80px;
+	border-bottom: 3px solid #8CA9F0;
+	display: inline;
+}
+section.aboutMe > p{
+	line-height: 27px;
+	padding-top: 20px;
+}
+section > table{
+	margin-left: 35%;
+	margin-top: 30px;
+	border-collapse: collapse;
+	line-height: 35px;
+	width: 30%;
+	margin-bottom: 31px;
+}
+
+
+/* Hobbies & Interests */
+section.interests > h2{
+	margin-left: 23%;
+	margin-top: 31px;
+	display: inline;
+	border-bottom: 3px solid #8CA9F0;
+}
+section.interests > span{
+	margin-left: 23%;
+	padding-top: 25px;
+}
+#reading{
+	position: absolute;
+	margin-left: -10%;
+	margin-top: 30px;
+}
+#music{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 30px;
+}
+#movies{
+	position: absolute;
+	margin-left: -10%;
+	margin-top: 270px;
+}
+#gardening{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 270px;
+}
+#language{
+	position: absolute;
+	margin-left: -10%;
+	margin-top: 510px;
+}
+#volunteering{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 510px;
+	margin-bottom: 100px;
+}
+
+
+/* My Capabilities */
+h2.iCan{
+	display: inline;
+	position: absolute;
+	margin-left: 23%;
+	margin-top: 50%;
+	border-bottom: 3px solid #8CA9F0;
+}
+h3.iCan{
+	height: 30px;
+}
+
+#html{
+	position: absolute;
+	height: 600px;
+	padding-top: 54%;
+	margin-left: 23%;
+}
+
+#css{
+	position: absolute;
+	height: 600px;
+	padding-top: 54%;
+	margin-left: 45%;
+}
+
+#java{
+	position: absolute;
+	height: 600px;
+	padding-top: 54%;
+	margin-left: 67%;
+}
+
+#php{
+	position: absolute;
+	margin-left: 33%;
+	padding-top: 850px;
+}
+
+#mysql{
+	position: absolute;
+	margin-left: 56%;
+	padding-top: 850px;
+}
+
+
+/* Contact */
+footer{
+	margin-top: 73%;
+	margin-right: 0;
+	background-color: #8CA9F0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+a.contact{
+	margin-top: 30px;
+	position: relative;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 40px;	
+	margin-left: 250px;
+}
+footer > a{
+	text-decoration: none;
+	color: black;
+}
+footer > a:hover{
+	text-decoration-line: underline;
+}
